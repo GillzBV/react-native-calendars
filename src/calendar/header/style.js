@@ -15,14 +15,10 @@ export default function(theme={}) {
       alignItems: 'center'
     },
     headerContainer: {
-      flexDirection: 'row'
+      ...appStyle.headerContainerStyle,
     },
     monthText: {
-      fontSize: appStyle.textMonthFontSize,
-      fontFamily: appStyle.textMonthFontFamily,
-      fontWeight: appStyle.textMonthFontWeight,
-      color: appStyle.monthTextColor,
-      margin: 10
+      ...appStyle.monthTextStyle,
     },
     arrow: {
       padding: 10,

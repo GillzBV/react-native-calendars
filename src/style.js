@@ -53,3 +53,13 @@ export const agendaTodayColor = textLinkColor;
 export const agendaKnobColor = '#f2F4f5';
 export const todayButtonTextColor = textLinkColor;
 export const todayButtonPosition = undefined; // right' / 'left'(default)
+export const monthTextStyle = {
+    fontSize: textMonthFontSize,
+    fontFamily: textMonthFontFamily,
+    fontWeight: textMonthFontWeight,
+    color: monthTextColor,
+    margin: 10
+}
+export const headerContainerStyle = {
+    flexDirection: 'row'
+}
